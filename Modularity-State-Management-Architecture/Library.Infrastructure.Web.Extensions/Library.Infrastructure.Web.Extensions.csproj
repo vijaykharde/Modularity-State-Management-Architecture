@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\Executables\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="Unity" Version="5.11.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Infrastructure\Library.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modularity\Modularity.Unity\Modularity.Unity.csproj" />
+    <!--<ProjectReference Include="..\Modularity\Modularity\Modularity.csproj" />-->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ModuleConfigurationElements.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ModuleConfigurationElements.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ModuleConfigurationElements.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ModuleConfigurationElements.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>

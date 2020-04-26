@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<ModuleConfigurationElements xmlns="http://tempuri.org/ModuleConfigurationElements.xsd">
+  <ModuleConfigurationElement>
+    <Name>EarlyRedemption</Name>
+    <AssemblyFile>EarlyRedemption.dll</AssemblyFile>
+    <TypeName>EarlyRedemption.Module, EarlyRedemption</TypeName>
+  </ModuleConfigurationElement>
+  <!--<ModuleConfigurationElement>
+    <Name>EarlyRedemption</Name>
+    <AssemblyFile>EarlyRedemption.dll</AssemblyFile>
+    <TypeName>EarlyRedemption.Module, EarlyRedemption</TypeName>
+  </ModuleConfigurationElement>-->
+</ModuleConfigurationElements>

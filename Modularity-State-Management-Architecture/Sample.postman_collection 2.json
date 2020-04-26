@@ -1,0 +1,123 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Sample",
+		"_postman_id": "2957cde7-17a8-8533-ad87-403ed0d35add",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Notify",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Notify",
+			"request": {
+				"url": "http://localhost:1248/api/SampleData/WeatherForecasts",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DeSerialie Workitem",
+			"request": {
+				"url": "http://localhost:55912/api/Values",
+				"method": "POST",
+				"header": [
+					{
+						"key": "WorkItemType",
+						"value": "Module.CommunityWatch.WorkItems.CommunityWatchWorkItem, Module.CommunityWatch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "StateName",
+						"value": "CWDetails",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "            {\n                \"$id\": \"1\",\n                \"State\": {\n                    \"Id\": \"f51fd475-5bdf-403d-aa31-76d33e14c40a\",\n                    \"states\":{ \n                    \t\"cwDetails\":[{\"bookName\":\"LMN\",\"bookAutherName\":\"ABC\"}]\n                    }\n                },\n                \"Status\": 1\n            }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DeSerialize State",
+			"request": {
+				"url": "http://localhost:55912/api/Values",
+				"method": "POST",
+				"header": [
+					{
+						"key": "WorkItemType",
+						"value": "Module.CommunityWatch.WorkItems.CommunityWatchWorkItem, Module.CommunityWatch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "StateName",
+						"value": "CWDetailsDependant",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"states\":{\"CWDetails\":[{\"bookName\":\"I WILL SUCCESS\",\"bookAuthorName\":\"VIJAY KHARDE\"}],\"CWDetailsDependant\":[{\"bookName\":\"GHI\",\"bookAuthorName\":\"JKL\"}]}}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ERQuery",
+			"request": {
+				"url": "http://localhost:55912/api/Values",
+				"method": "POST",
+				"header": [
+					{
+						"key": "WorkItemType",
+						"value": "EarlyRedemption.WorkItems.EarlyRedemptionWorkItem, EarlyRedemption,  Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"description": ""
+					},
+					{
+						"key": "StateName",
+						"value": "ERQuery",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"states\":{\n\t\t\"ERQuery\":{\n\t\t\t\"productType\":\"Libor\",\n\t\t\t\"currency\":\"USD\"\n\t\t}\n\t}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

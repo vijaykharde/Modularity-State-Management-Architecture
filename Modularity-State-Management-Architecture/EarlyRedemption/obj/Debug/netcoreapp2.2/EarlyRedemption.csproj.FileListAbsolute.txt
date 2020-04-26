@@ -1,0 +1,10 @@
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\EarlyRedemption.deps.json
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\EarlyRedemption.dll
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\EarlyRedemption.pdb
+D:\VijayKharde\UBS_Architecture\EarlyRedemption\obj\Debug\netcoreapp2.2\EarlyRedemption.csprojAssemblyReference.cache
+D:\VijayKharde\UBS_Architecture\EarlyRedemption\obj\Debug\netcoreapp2.2\EarlyRedemption.csproj.CoreCompileInputs.cache
+D:\VijayKharde\UBS_Architecture\EarlyRedemption\obj\Debug\netcoreapp2.2\EarlyRedemption.AssemblyInfoInputs.cache
+D:\VijayKharde\UBS_Architecture\EarlyRedemption\obj\Debug\netcoreapp2.2\EarlyRedemption.AssemblyInfo.cs
+D:\VijayKharde\UBS_Architecture\EarlyRedemption\obj\Debug\netcoreapp2.2\EarlyRedemption.csproj.CopyComplete
+D:\VijayKharde\UBS_Architecture\EarlyRedemption\obj\Debug\netcoreapp2.2\EarlyRedemption.dll
+D:\VijayKharde\UBS_Architecture\EarlyRedemption\obj\Debug\netcoreapp2.2\EarlyRedemption.pdb

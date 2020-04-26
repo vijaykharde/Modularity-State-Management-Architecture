@@ -1,0 +1,9 @@
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\Modularity.deps.json
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\Modularity.dll
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\Modularity.pdb
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity\obj\Debug\netcoreapp2.2\Modularity.csprojAssemblyReference.cache
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity\obj\Debug\netcoreapp2.2\Modularity.csproj.CoreCompileInputs.cache
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity\obj\Debug\netcoreapp2.2\Modularity.AssemblyInfoInputs.cache
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity\obj\Debug\netcoreapp2.2\Modularity.AssemblyInfo.cs
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity\obj\Debug\netcoreapp2.2\Modularity.dll
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity\obj\Debug\netcoreapp2.2\Modularity.pdb

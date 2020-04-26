@@ -1,0 +1,129 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\Executables\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Common.NetCore" Version="6.0.1312" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+    <PackageReference Include="System.CodeDom" Version="4.5.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="4.5.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>  
+</Project>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F742FA1A-C805-4AD5-80D4-09ACC7C3A799}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CsTech.Modularity</RootNamespace>
+    <AssemblyName>CsTech.Modularity</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Practices.EnterpriseLibrary.Common.dll.3.1.0\lib\2.0\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Practices.ObjectBuilder.dll.3.1.0\lib\2.0\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyResolver.cs" />
+    <Compile Include="Attributes\ModuleAttribute.cs" />
+    <Compile Include="Attributes\ModuleDependencyAttribute.cs" />
+    <Compile Include="Configuration\ConfigurationModuleCatalog.cs" />
+    <Compile Include="Configuration\ConfigurationStore.cs" />
+    <Compile Include="Configuration\ModuleConfigurationElement.cs" />
+    <Compile Include="Configuration\ModuleConfigurationElementCollection.cs" />
+    <Compile Include="Configuration\ModuleDependencyConfigurationElement.cs" />
+    <Compile Include="Configuration\ModuleDependencyConfigurationElementCollection.cs" />
+    <Compile Include="Configuration\ModulesConfigurationSection.cs" />
+    <Compile Include="Constants\ExceptionMessages.cs" />
+    <Compile Include="Exceptions\CyclicDependencyFoundException.cs" />
+    <Compile Include="Exceptions\DuplicateModuleException.cs" />
+    <Compile Include="Exceptions\ModularityException.cs" />
+    <Compile Include="Exceptions\ModuleInitializeException.cs" />
+    <Compile Include="Exceptions\ModuleNotFoundException.cs" />
+    <Compile Include="Exceptions\ModuleTypeLoaderNotFoundException.cs" />
+    <Compile Include="Exceptions\ModuleTypeLoadingException.cs" />
+    <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Extensions\ExceptionExtensions.cs" />
+    <Compile Include="Extensions\ModuleInfoGroupExtensions.cs" />
+    <Compile Include="FileModuleTypeLoader.cs" />
+    <Compile Include="IAssemblyResolver.cs" />
+    <Compile Include="IModule.cs" />
+    <Compile Include="IModuleCatalog.cs" />
+    <Compile Include="IModuleCatalogItem.cs" />
+    <Compile Include="IModuleInitializer.cs" />
+    <Compile Include="IModuleManager.cs" />
+    <Compile Include="IModuleTypeLoader.cs" />
+    <Compile Include="InitializationMode.cs" />
+    <Compile Include="ListDictionary.cs" />
+    <Compile Include="LoadModuleCompletedEventArgs.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="ModuleCatalog.cs" />
+    <Compile Include="ModuleDependencySolver.cs" />
+    <Compile Include="ModuleDownloadProgressChangedEventArgs.cs" />
+    <Compile Include="ModuleInfo.cs" />
+    <Compile Include="ModuleInfoGroup.cs" />
+    <Compile Include="ModuleManager.cs" />
+    <Compile Include="ModuleState.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>-->

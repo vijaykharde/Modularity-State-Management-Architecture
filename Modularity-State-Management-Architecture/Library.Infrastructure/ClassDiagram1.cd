@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StateBuilder.Events.SubscriptionToken" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAAAgAAAAAAAAAAAAIAgAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SubscriptionToken.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.Guard.Argument" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAEACAAAAAAAAQAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Guard\Argument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library.Infrastructure.Library.EntityTranslators.BaseTranslator" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>Library\EntityTranslators\BaseTranslator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Library.Infrastructure.Library.EntityTranslators.EntityMapperTranslator&lt;TBusinessEntity, TServiceEntity&gt;" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAEAAAAAAQ=</HashCode>
+      <FileName>Library\EntityTranslators\EntityMapperTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library.Infrastructure.Library.Infrastructure.Services.EntityTranslatorService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAAAAAQAAQAAAAAAAAAAAAAAABQAAAAEAAQAAAA=</HashCode>
+      <FileName>Library\Infrastructure\Services\EntityTranslatorService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.StateHandlers.StateHandlerBase" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAQAgAABAAEAAAAAAAAAIAIAAAQgEgAAAAI=</HashCode>
+      <FileName>Library\Infrastructure\StateHandlers\StateHandlerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.StateHandlers.StateHandlerContext" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAYAAQIACBAAAAAAAAAAAAAAgAAAAAAAACAAA=</HashCode>
+      <FileName>Library\Infrastructure\StateHandlers\StateHandlerContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.SystemAttributes.RequestProcessorDependency" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Infrastructure\SystemAttributes\RequestProcessorDependency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.SystemAttributes.RootWorkItem" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Infrastructure\SystemAttributes\RootWorkItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.SystemAttributes.WorkItemDependency" Collapsed="true">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Library\Infrastructure\SystemAttributes\WorkItemDependency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Threading.Synchronization.LockBase" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAA=</HashCode>
+      <FileName>Library\Infrastructure\Threading\Synchronization\LockBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StateBuilder.Threading.ReaderLock" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Infrastructure\Threading\ReaderLock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Threading.WriterLock" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Infrastructure\Threading\WriterLock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.WorkItemExtensions" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Library\Infrastructure\IWorkItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.State" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGgAAAACAAABAgCAAAFAQAAAAAAAAEQAAABABAACA=</HashCode>
+      <FileName>Library\Infrastructure\State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.StateChangedEventArgs" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Infrastructure\StateChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.StateChangedEventArgs&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Infrastructure\StateChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.WorkItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQEBCAAAAhABAAAQAAAAAAAAgAAAAAAFAACADI=</HashCode>
+      <FileName>Library\Infrastructure\WorkItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.Library.Infrastructure.WorkItemCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEgAABBAACAABAAwAAAAAAAEAAAAAABAAAA=</HashCode>
+      <FileName>Library\Infrastructure\WorkItemCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.Library.Interface.Constants.StateNames" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkwMsAycBSUgEkJlAyUgQY8wu6KITYRlQSghDsUEs1M=</HashCode>
+      <FileName>Library\Interface\Constants\StateNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library.Infrastructure.Library.Interface.CSGenericType&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EFAAAMKEAAAAFQQEoBgCAAIAAAwIAIBAAAAgIAAAMAA=</HashCode>
+      <FileName>Library\Interface\CSTypes\CSGenericType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.Infrastructure.Library.Interface.TypeExtensions" Collapsed="true">
+    <Position X="16" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEgAASAAIAQAAAAAAADAAAABAABBAAACAAAwCEAAKEA=</HashCode>
+      <FileName>Library\Interface\TypeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Interface.Extensions.ArrayExtensions" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Library\Interface\Extensions\ArrayExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Interface.Extensions.DictionaryExtensions" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Interface\Extensions\DictionaryExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Interface.Extensions.EnumerableExtensions" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Library\Interface\Extensions\EnumerableExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Interface.Extensions.EnumExtensions" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAIAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Interface\Extensions\EnumExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Interface.Extensions.StringExtensions" Collapsed="true">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Interface\Extensions\StringExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library.Infrastructure.Library.Interface.Services.EntityTranslatorException" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Interface\Services\EntityTranslatorException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Interface.MemberId" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAoAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Interface\MemberId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Security.Extensions.StringExtensions" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Library\Security\Extensions\StringExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Security.Identities.AsacIdentity" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Library\Security\Identities\AsacIdentity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.Security.Identities.IafIdentity" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Library\Security\Identities\IafIdentity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library.Infrastructure.Library.StateBuilders.StateRegistry" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAQAAAAIAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Library\StateBuilders\StateRegistry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.Library.StateBuilders.StateBuilderBase&lt;TStateObject&gt;" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABAQQgAABAgECAAAAAAACIAAAAAQgAgAAAAI=</HashCode>
+      <FileName>Library\StateBuilders\StateBuilderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.Library.StateBuilders.StateBuilderContext&lt;TStateObject&gt;" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAYAAQIAGBAAAAQAAAAAAAAAgABAAAAAgCAAA=</HashCode>
+      <FileName>Library\StateBuilders\StateBuilderContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.RequestManager.Providers.CredentialsProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\Providers\CredentialsProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.RequestManager.Providers.TokenProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAA=</HashCode>
+      <FileName>RequestManager\Providers\TokenProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.RequestManager.Unity.RequestProcessorResolver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAACAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\Unity\RequestProcessorResolver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.RequestManager.Unity.RequestProcessorResolverOverridesRegistry" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAIAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\Unity\RequestProcessorResolverOverridesRegistry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.RequestManager.ApiCallRequestContext&lt;TRequest, TResponse&gt;" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAIgAAACAIAAAAAAABAA=</HashCode>
+      <FileName>RequestManager\ApiCallRequestContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.RequestManager.RequestContext&lt;TRequest, TResponse&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABBAAAAAAAAAAAAAAAAhAAAAAAQAAAAAAA=</HashCode>
+      <FileName>RequestManager\RequestContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.RequestManager.RequestManagerService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAQAAAAIAAAAAAAAAAAAAAAAAgAAAAIAAAAAAI=</HashCode>
+      <FileName>RequestManager\RequestManagerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.RequestManager.RequestMetricData" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAABAAAAA=</HashCode>
+      <FileName>RequestManager\RequestMetricData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBuilder.RequestManager.RequestObserver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAACAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\RequestObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateBuilder.RequestManager.RequestProcessorRegistry" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAACAQAAAQAAQAAAAAAAgAAEAAAAA=</HashCode>
+      <FileName>RequestManager\RequestProcessorRegistry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.Infrastructure.ModuleBase&lt;TModuleConfigurationElement&gt;" Collapsed="true">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABA=</HashCode>
+      <FileName>ModuleBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="StateBuilder.Library.Infrastructure.Views.IViewController&lt;TViewModel&gt;" Collapsed="true">
+    <Position X="17.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Library\Infrastructure\Views\IViewController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.Library.Infrastructure.IWorkItem" Collapsed="true">
+    <Position X="19.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQEAAAAAAhABAAAQAAAAAAAAgAAAAAABAACADI=</HashCode>
+      <FileName>Library\Infrastructure\IWorkItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Library.Infrastructure.Library.Interface.Services.IEntityTranslator" Collapsed="true">
+    <Position X="12.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>Library\Interface\Services\IEntityTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Library.Infrastructure.Library.Interface.Services.IEntityTranslatorService" Collapsed="true">
+    <Position X="14.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>Library\Interface\Services\IEntityTranslatorService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Library.Infrastructure.Library.StateBuilders.IStateRegistry" Collapsed="true">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Library\StateBuilders\IStateRegistry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.Providers.ICredentials" Collapsed="true">
+    <Position X="9" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\Providers\ICredentials.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.Providers.ICredentialsProvider" Collapsed="true">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\Providers\ICredentialsProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.Providers.IToken" Collapsed="true">
+    <Position X="14.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RequestManager\Providers\IToken.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.Providers.ITokenProvider" Collapsed="true">
+    <Position X="16" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAA=</HashCode>
+      <FileName>RequestManager\Providers\ITokenProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.IRequestManagerService" Collapsed="true">
+    <Position X="16" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>RequestManager\IRequestManagerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.IRequestObserver" Collapsed="true">
+    <Position X="17.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAACAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\IRequestObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.IRequestProcessor&lt;TRequest, TResponse&gt;" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>RequestManager\IRequestProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.IRequestProcessor&lt;TRequest, TResponse, TRequestContext&gt;" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\IRequestProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.IRequestProcessorRegistry" Collapsed="true">
+    <Position X="19.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAQAAAAAAQAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>RequestManager\IRequestProcessorRegistry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.IRequestProcessorResolver" Collapsed="true">
+    <Position X="9" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\IRequestProcessorResolver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateBuilder.RequestManager.IRequestProcessorResolverOverridesRegistry" Collapsed="true">
+    <Position X="10.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAA=</HashCode>
+      <FileName>RequestManager\IRequestProcessorResolverOverridesRegistry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="StateBuilder.Library.Infrastructure.WorkItemStatus" Collapsed="true">
+    <Position X="10.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>Library\Infrastructure\WorkItemStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Library.Infrastructure.Library.Interface.ValueStatus" Collapsed="true">
+    <Position X="9" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAFAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Library\Interface\CSTypes\CSGenericType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
