@@ -1,0 +1,11 @@
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\Modularity.Unity.dll.config
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\Modularity.Unity.deps.json
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\Modularity.Unity.dll
+D:\VijayKharde\UBS_Architecture\Executables\netcoreapp2.2\Modularity.Unity.pdb
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity.Unity\obj\Debug\netcoreapp2.2\Modularity.Unity.csprojAssemblyReference.cache
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity.Unity\obj\Debug\netcoreapp2.2\Modularity.Unity.csproj.CoreCompileInputs.cache
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity.Unity\obj\Debug\netcoreapp2.2\Modularity.Unity.AssemblyInfoInputs.cache
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity.Unity\obj\Debug\netcoreapp2.2\Modularity.Unity.AssemblyInfo.cs
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity.Unity\obj\Debug\netcoreapp2.2\Modularity.Unity.csproj.CopyComplete
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity.Unity\obj\Debug\netcoreapp2.2\Modularity.Unity.dll
+D:\VijayKharde\UBS_Architecture\Modularity\Modularity.Unity\obj\Debug\netcoreapp2.2\Modularity.Unity.pdb
