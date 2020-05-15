@@ -146,9 +146,13 @@ module.exports = {
         exclude: /node_modules/,
         loaders: ['style-loader', 'css-loader', 'sass-loader', 'to-string-loader']
       },
+      /*{
+        test: /\.html$/i,
+        use: ['file-loader?name=[name].[ext]', 'extract-loader', 'html-loader'],
+      },*/
       {
         test: /\.html$/,
-        loader: 'raw-loader'
+        loader: 'html-loader'
       }
     ],
     exprContextCritical: false
