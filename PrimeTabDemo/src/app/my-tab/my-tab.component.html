@@ -1,0 +1,6 @@
+<p>my-tab works!</p>
+<p-tabView name="myView" id="myView">
+  <p-tabPanel *ngFor="let i of [1,2,3,4]; index as cnt" header="Test{{i}}" tabindex="{{cnt}}">
+   Content Test{{i}}
+  </p-tabPanel>
+</p-tabView>

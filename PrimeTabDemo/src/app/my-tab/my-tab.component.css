@@ -1,0 +1,4 @@
+body .ui-corner-top {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 20px !important ;
+}
